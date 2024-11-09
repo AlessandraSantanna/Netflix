@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+
+body{
+    background-color: #000;
+    margin:0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    
+}
+
+.img-topo{
+    height: 25px;
+}
+
+
+ul{
+    height: 25px;
+    width: 95%;
+    display:flex;
+    justify-content: space-between;
+    list-style-type:none;
+    position: fixed;
+}
+
+.img-topo{
+    height: 25px;
+ }
+
+ video{
+   margin: auto;
+    width: 100vw;
+    min-height: 80vh;
+ }
+
+ .capa{
+    position:absolute;
+    bottom: 35%;
+    left:5%;
+    width:45% ;
+    z-index: 2;
+
+ }
+
+ .capa-titulo{
+    color:white;
+    font-size: 60px;
+    margin-bottom: 5px;
+    font-weight: bold;
+ }
+ .capa-descricao{
+    color:white;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+ }
+
+ .link-assistir{
+    background-color: white;
+    color:black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor:pointer;
+ }
+ .link-info{
+    color:black;
+    background-color: rgba(255,255,255,0.35);
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor:pointer;
+ }
+
+ .imagem-carrossel{
+    height: 150px;
+ }
+
+
+ #carouselExampleControls{
+    background-color: transparent;
+    position: absolute;
+    bottom:-50px;
+    left:50px;
+ }
+ .titulo-carrossel{
+    color:white;
+    font-size: 30px;
+    margin-bottom: 10px;
+ }
+
+ .botao-som{
+   border:none;
+   border-radius:15px;
+   cursor:pointer;
+   z-index: 4;
+   position: absolute;
+   top:100px;
+   
+
+ }
+ .modal{
+   display: none;
+   position: fixed;
+   z-index: 5;
+   left:0;
+   top:0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0,0,0,0.8);
+ }
+
+   .modal-conteudo{
+   background-color: #181818;
+   margin:30px auto;
+   padding: 20px;
+   width: 60%;
+   color:white;
+
+
+}
+
+@media screen and (max-width: 768px) {
+   body{
+      background-color: #000;
+      margin:0;
+      padding: 0;
+      font-family: "Montserrat", sans-serif;
+      position: relative;
+      padding-bottom: 100px;
+      padding-top: 20px;
+      
+  }
+   ul{
+      height: 5px;
+      width: 95%;
+      display:flex;
+      justify-content: space-between;
+      list-style-type:none;
+      
+  }
+  
+
+ .capa { 
+      width: 70%;
+      bottom: 25%;
+   }
+   video{
+    
+      width: 100vw;
+      min-height: 80vh;
+   }
+  
+   
+    
+   .capa-titulo {
+    font-size: 25px;
+   }
+
+   
+  .capa-descricao {     
+   font-size: 14px;
+   }
+
+   .botao-som{
+      display: none;
+   }
+
+  
+.link-assistir, .link-info {  
+   padding: 8px 16px;  
+   font-size: 14px;
+   }
+
+ .imagem-carrossel { 
+   height: 100px;
+   }
+   .titulo-carrossel{
+      color:white;
+      font-size: 20px;
+      margin-bottom: 10px;
+   }
+  
+   #carouselExampleControls {
+   bottom: -20px;
+    left: 30px;
+}
+}
+
+  
+@media screen and (max-width: 576px) {
+   ul{
+      height: 5px;
+      width: 95%;
+      display:flex;
+      justify-content: space-between;
+      list-style-type:none;
+      
+  }
+  
+   .capa {
+         width: 90%;
+         bottom: 20%;
+      }
+
+   
+      
+
+   .capa-titulo {
+       
+      
+      font-size: 25px;
+   }
+
+   
+  
+   .capa-descricao {
+      font-size: 12px;
+   }
+ 
+   .link-assistir, .link-info {
+      padding: 6px 12px;
+      font-size: 12px;
+   }
+  
+   .imagem-carrossel {    
+   height: 80px;
+   }
+   .carousel-inner{
+      bottom: -45px;
+      left: 20px;
+
+   }
+   #carouselExampleControls {  
+   bottom: -70px;
+   left: 20px;
+   }
+}
+
+  
